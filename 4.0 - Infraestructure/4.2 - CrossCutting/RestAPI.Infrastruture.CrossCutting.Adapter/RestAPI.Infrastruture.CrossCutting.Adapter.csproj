@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\2.0 - Application\RestAPI.Application.DTO\RestAPI.Application.DTO.csproj" />
+    <ProjectReference Include="..\..\..\3.0 - Domain\RestAPI.Domain\RestAPI.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\2.0 - Application\RestAPI.Application\RestAPI.Application.csproj" />
+    <ProjectReference Include="..\..\..\3.0 - Domain\RestAPI.Domain.Services\RestAPI.Domain.Services.csproj" />
+    <ProjectReference Include="..\..\4.1 - Data\RestAPI.Infraestructure.Repository\RestAPI.Infraestructure.Repository.csproj" />
+    <ProjectReference Include="..\RestAPI.Infrastruture.CrossCutting.Adapter\RestAPI.Infrastruture.CrossCutting.Adapter.csproj" />
+  </ItemGroup>
+
+</Project>

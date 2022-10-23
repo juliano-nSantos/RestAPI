@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <StartupObject></StartupObject>
+    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.4.0" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="8.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.17" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.17" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\2.0 - Application\RestAPI.Application.DTO\RestAPI.Application.DTO.csproj" />
+    <ProjectReference Include="..\..\2.0 - Application\RestAPI.Application\RestAPI.Application.csproj" />
+    <ProjectReference Include="..\..\4.0 - Infraestructure\4.2 - CrossCutting\RestAPI.Infrastruture.CrossCutting.IOC\RestAPI.Infrastruture.CrossCutting.IOC.csproj" />
+  </ItemGroup>
+
+</Project>
